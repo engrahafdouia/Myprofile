@@ -1,0 +1,208 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6a686833;
+  /* background-image: url('../hw1-update/images/image1.png'); */
+}
+.container {
+  background-color: #fff;
+  width: 1000px;
+  margin: 10px auto;
+  padding: 10px;
+}
+/* img {
+  max-width: 100%;
+}
+.image {
+  flex-basis: 40%;
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+} */
+
+
+
+
+/* way second */
+header {
+  background-color: rgb(54, 51, 51);
+  color:white;
+  padding: 10px;
+ 
+}
+/* img{
+ width:193px;
+ float: left;
+
+} */
+
+
+/****new update******************/
+h1{
+  /* display: inline-block; */
+  /* padding: 10px; */
+}
+ul{
+  list-style: none;
+ 
+}
+li{
+  display: inline-block;
+  padding: 10px;
+  /* text-align: left; */
+}
+a{
+  text-decoration: none;
+  color: #eee;
+  font-size: 22px;
+}
+a:hover{
+  color: #1ABC9C;
+}
+nav{
+ background-color: #2C3E50;
+ color: #fff;
+margin-top: 0;
+text-align: center;
+}
+.head{
+  text-align: left;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 30%;
+}
+.list{
+  text-align: right;
+  margin-top: 0;
+  display: inline-block;
+  padding: 10px;
+  /* margin-left: 50%; */
+}
+.info{
+  color: #2C3E50;
+  text-decoration: underline;
+}
+img{
+  border-radius: 17%;
+  width: 370px;
+}
+.paragraph{
+  margin-left:10px ;
+  padding: 10px;
+  font-size: 20px;
+}
+.info span ,.about span ,span{
+  color:#1ABC9C;
+}
+.about{
+  
+  text-align: center;
+
+  width: 103px;
+  margin: 10px auto;
+  padding: 10px;
+  text-decoration: underline;
+  color: #2C3E50;
+  /* border-radius: 10%; */
+
+}
+.about_content{
+  line-height: 43px;
+  font-size: 21px;
+}
+
+.skills{
+  /* background-color: #676767; */
+  text-align: center;
+
+  margin: 10px auto;
+  padding: 10px;
+  text-decoration: underline;
+  color: #2C3E50;
+  /* border-radius: 10%; */
+
+}
+.skill{
+  display: inline-block;
+  padding: 20px;
+}
+/* progress{
+  background-color: #1ABC9C;
+} */
+progress{
+  color:red ;
+}
+.email{
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  text-decoration: underline;
+  color: #2C3E50;
+}
+form{
+  /* margin: 10px auto;
+   */
+   text-align: center;
+}
+input{
+  /* padding: 10px; */
+  margin: 10px 20px;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px;
+}
+fieldset{
+  margin: 10px auto;
+  width: 500px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+
+  padding: 20px;
+}
+.send{
+color: white;
+background-color: #2C3E50;
+border-radius: 9%;
+
+}
+.send:hover{
+  background-color: #1ABC9C;
+  border-style: none;
+}
+textarea{
+  border: 1px solid black;
+}
+footer {
+  background-color: rgb(54, 51, 51);
+  color:#1ABC9C;
+  padding: 20px;
+  text-align: center;
+ margin: 0;
+}
+
+progress {
+  border: none;
+  width: 400px;
+  height: 60px;
+  background: crimson;
+}
+
+ /* For Firefox */
+ progress::-moz-progress-bar {
+  background: #1ABC9C;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-value {
+  background: #1ABC9C;
+}
+
+/* For IE10 */
+progress {
+  background: #1ABC9C;
+  height: 20px;
+}
